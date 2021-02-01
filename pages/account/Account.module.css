@@ -1,0 +1,183 @@
+/* Panel */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2em;
+  }
+  
+  .count {
+    font-size: 0.5em;
+    position: relative;
+    top: -15px;
+  }
+  
+  .card-list {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .items {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+
+  .item {
+    display: block;
+    width: 300px;
+    height: 230px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .image {
+    display: block;
+    margin: 0 auto;
+    margin-top: -20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: royalblue;
+  }
+
+  .buttons {
+    font-size: 0.9em;
+    padding: 0.3rem 0.9rem;
+  }
+
+  .buttons i {
+    padding: 0;
+    margin: 0;
+    font-size: 1.4em;
+  }
+
+  .rowbuttons {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .rowbuttons * {
+    width: 100%;
+    margin: 0 5px;
+  }
+
+  .statustrue:before {
+    content: '';
+    margin-right: 5px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #28a745;
+  }
+
+  .statustrue {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+    align-items: center;
+    color: #28a745;
+  }
+
+  .statusfalse:before {
+    content: '';
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #dc3545;
+  }
+
+  .statusfalse {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+    align-items: center;
+    color: #dc3545;
+  }
+
+  .statusblock {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+    align-items: center;
+    color: #ffc107;
+  }
+
+  .statusblock:before {
+    content: '';
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #ffc107;
+  }
+  
+  .time {
+    display: block;
+  }
+
+  .time button {
+    font-size: 0.9em;
+    padding: 0.3rem 0.9rem;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .welcome {
+    padding: 20px 0;
+    margin: 20px 0;
+    width: 100%;
+    padding: 30px 0;
+    border: 3px solid #eee;
+  }
+  
+  .welcomebox {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .image {
+    display: block;
+    width: 150px;
+    height: 150px;
+    padding: 0;
+    margin: 0;
+    border: 2px solid #eee;
+  }
+
+  .content {
+    position: relative;
+    display: block;
+    margin-left: 65px;
+  }
+
+  .content > * {
+    display: block;
+  }
+
+  .editbut {
+    width: 100%;
+    max-width: 250px;
+    margin-top: 10px;
+  }
+
+  .name {
+    font-size: 2em;
+  }
+
+  /* Add Page */
+
+  .boxadd {
+    margin-top: 10px;
+    padding: 10px 20px;
+    width: 100%;
+    background-color: rgb(251, 251, 251);
+    box-shadow: 0 0 10px 0 #eee;
+    border: 3px solid #eee;
+    border-radius: 5px;
+  }

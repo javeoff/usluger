@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "fs": "^0.0.1-security",
+    "gost-transliteration": "^0.1.2",
+    "json2xlsx": "^0.1.6",
+    "knex": "^0.21.14",
+    "mysql": "^2.18.1",
+    "node-fetch": "^2.6.1"
+  }
+}
